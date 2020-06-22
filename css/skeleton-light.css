@@ -77,10 +77,10 @@ html {
   font-size: 100%; }
 body {
   background-color: #F4FAFF;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'FoundryMonoline', "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #00334E; }
 
 
@@ -89,7 +89,7 @@ body {
 h1 {
   margin-top: 0;
   margin-bottom: 16px;
-  font-weight: 800; }
+  font-weight: 500; }
 h1 { font-size:24px; line-height: 64px; letter-spacing: 0;}
 
 
@@ -98,19 +98,35 @@ h1 { font-size:24px; line-height: 64px; letter-spacing: 0;}
   h1 { font-size: 48px; line-height: 96px;}
 }
 
+@font-face {
+  font-family: FoundryMonoline;
+  src: url('font/FoundryMonoline-Medium.ttf') format('truetype');
+}
+
 p {
   margin-top: 0; }
 
 p.padded {
     margin-top: 48px; }
 
+p.heavier {
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 500; }
+
+p.fineprint {
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #989898; }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #0085FF; }
+  color: #00334E; }
 a:hover {
-  color: #0085FF; }
+  color: #1581A1; }
 
 
 /* Code
