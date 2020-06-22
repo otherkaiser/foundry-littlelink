@@ -76,6 +76,22 @@ button:hover,
 
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Foundry */
+.button.button-foundry {
+  color: #FFFFFF;
+  background-color: #00334E }
+.button.button-foundry:hover,
+.button.button-foundry:focus {
+  filter: brightness(140%) }
+
+/* DRIBBBLE */
+.button.button-dribbble {
+  color: #FFFFFF;
+  background-color: #ea4c89 }
+.button.button-dribbble:hover,
+.button.button-dribbble:focus {
+  filter: brightness(90%) }
+
 
 /* Discord */
 .button.button-discord {
@@ -204,7 +220,7 @@ button:hover,
 .button.button-steam:hover,
 .button.button-steam:focus {
   filter: brightness(90%) }
-  
+
 /* Telegram */
 .button.button-telegram {
   color: #FFFFFF;
@@ -244,4 +260,3 @@ button:hover,
 .button.button-youtube:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
-
